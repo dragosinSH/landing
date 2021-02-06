@@ -1,0 +1,57 @@
+/* Write some CSS below */
+body {
+font-family : Raleway;
+font-style: italic;
+font-size: 20px;
+text-align: center;
+color: rgb(55,55,55);
+color: black;
+background-color: #90ee90;
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: green;
+	background-color: #FF0000;
+	border-radius: 5px;
+}
+
+a:hover {
+color: blue;
+background-color: pink;
+}
+
+h1:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+.card-white 
+{
+	background-color: white;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	border-color: black;
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+}
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+
+
+.banner {
+	background-image: url('myimages/bund.jpeg');
+	background-color: #ffffe0;
+}
+
+.footer {
+	background-image: url('myimages/bund.jpeg');
+}
